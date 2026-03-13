@@ -4,7 +4,7 @@
 - WHERE close_profit < -0.26;
 
 2. Проверка, что бот сделал усреднение (DCA)
-- SELECT trade_id, COUNT(*) as buys 
+- SELECT trade_id, COUNT(*) AS buys
 - FROM orders 
 - WHERE side = 'buy' 
 - GROUP BY trade_id 
